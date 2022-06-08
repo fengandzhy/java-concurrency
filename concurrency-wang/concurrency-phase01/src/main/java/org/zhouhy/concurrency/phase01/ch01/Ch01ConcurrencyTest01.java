@@ -16,6 +16,7 @@ public class Ch01ConcurrencyTest01 extends App {
                     }
                 }
         );
+        t1.setName("Customer Thread");
         t1.start();
         logger.info("We are here!!");
     }

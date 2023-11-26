@@ -4,7 +4,7 @@ package org.frank.java.concurrency.thread.join;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j(topic = "c.JoinTest")
-public class JoinTest {
+public class JoinTest1 {
     private static int result = 0;
     public static void main(String[] args) throws InterruptedException {        
         Thread t1 = new Thread(()-> {

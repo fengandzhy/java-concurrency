@@ -10,6 +10,5 @@ public class createThread1 {
         });
         t1.setName("t1");
         t1.start();
-    }
-    
+    }    
 }

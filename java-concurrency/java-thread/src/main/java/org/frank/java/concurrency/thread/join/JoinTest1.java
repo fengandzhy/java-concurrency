@@ -21,6 +21,8 @@ public class JoinTest1 {
         t1.start();
         log.debug("before join result=" + result);
         t1.join(); // 在这里等待t1 完成
+        // t1.join(1500); // 在这里等待t1 1500毫秒 如果 t1 没有完成则不等了
+        // t1.join(7500); // 在这里等待t1 7500毫秒 如果 7500 毫秒之前t1已经完成, 则不用等了
         log.debug("after join result=" + result);
     }   
 }
